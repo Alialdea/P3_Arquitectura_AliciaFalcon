@@ -8,7 +8,7 @@ const discSchema = new Schema(
   {
     nombre:{type: String, required: true},
     autor: {type: String, required: true},
-    formato: {type: formatoD, required: true},
+    formato: {type: String,formatoD, required: true},
     matriz: {type: String, required: false},
     paisImpr:{type: String, required: true},
     portada:{type: String, required: true},

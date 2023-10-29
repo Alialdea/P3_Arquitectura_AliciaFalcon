@@ -1,13 +1,14 @@
 import mongoose from "npm:mongoose@7.6.3"
 
 export enum formatoD{
-    LP,
-    CD,
-    single,
-    cassete,
-    reelToReel,
-    minidisc,
-    videocd
+  LP = 'LP',
+  CD = 'CD',
+  single = 'single',
+  cassette = 'cassette',
+  reel_to_reel = 'reel_to_reel',
+  minidisc = 'minidisc', 
+  videocd = 'videocd',
+  vinyl = 'vinyl'
 }
 
 export type Disco={
